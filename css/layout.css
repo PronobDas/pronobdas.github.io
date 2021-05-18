@@ -33,7 +33,8 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background-color: #222;
+   /*background: #161415 url(../images/profilepic1.jpg) no-repeat top center;*/
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -207,9 +208,9 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 100%;
+   width: 600px;
+   height: auto;
+   border-radius: 5%;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -266,8 +267,15 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
+
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#resume .description span{
+   font: 14px/22px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
@@ -276,6 +284,7 @@ ul#nav li.current a { color: #F06000; }
    margin-right: 5px;
    margin-left: 5px;
 }
+
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
@@ -815,6 +824,11 @@ call-to-action .button {
    text-align: left;
    float: left;
    color: #ebeeee;
+}
+#contact h2 {
+    font: 40px 'opensans-bold', sans-serif;
+    color: #EBEEEE;
+    margin-bottom: 6px;
 }
 
 #contact h4 {
