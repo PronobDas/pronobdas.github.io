@@ -812,6 +812,7 @@ call-to-action .button {
    margin-bottom: 6px;
 }
 #contact h1 span { display: none; }
+
 #contact h1:before {
    font-family: 'FontAwesome';
    content: "\f0e0";
